@@ -1,0 +1,54 @@
+.description{
+    display: flex;
+    justify-content: center;
+    
+    
+    &__item{
+    width: calc((100% - 90px) / 4);
+}
+    &__item:not(:last-child){
+    margin-right: 30px;
+}
+
+    &__svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 100px;
+    margin-bottom: 30px;
+    background-color: var(--button-color);
+    border-radius: 4px;
+}
+    &__link{
+    font-size: 14px;
+    font-weight: 700;
+    line-height:1.1;
+    color: var(--text-color);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    align-items: center;
+     
+}
+
+    &__text{
+    line-height: 1.7;
+    /* or 171% */
+    align-items: center;
+
+    color: var(--main-color);
+
+}
+
+    &__item {
+    list-style-type: none;
+}
+
+
+    &__text {
+    line-height: 1.7;
+    /* or 171% */
+    color: var(--main-color);
+
+}
+
+}
